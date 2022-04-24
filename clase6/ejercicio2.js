@@ -12,7 +12,7 @@ const list = [
 
 
   function exerciseTwo (list){
-    let assistanceEurope = list.filter((europe) => europe.continent === 'Europe' );
+    let assistanceEurope = list.filter((europe) => europe.continent === 'Europe' ).length;
     return assistanceEurope;
   }
 
