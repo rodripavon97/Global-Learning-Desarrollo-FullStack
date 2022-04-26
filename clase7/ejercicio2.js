@@ -7,12 +7,12 @@ const list1 = [
 ];
 function exerciseTwo (array) {
     let mayor = 0;
-    const objAge = array.map(obj => obj.age)
-    const mayorObj = array.forEach(element => {
-        
-    });
-    return array
+    const objAge = array.map(obj => {return obj.age})
+    let old = Math.max(...objAge)
+    const newArr = []
+    let empleados = array.filter( obj => {obj.age == old ? newArr.push(obj) : null})    
+    
+    return newArr
 }
-
 let example = exerciseTwo(list1)
 console.table(example)
