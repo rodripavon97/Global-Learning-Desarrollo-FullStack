@@ -11,14 +11,16 @@
     <p>Esto es un parrafo y puedo escribir lo que sea</p>
     <h2>Subtitulo!</h2>
     <hr />
-    <a href="http://www.google.com"> ir a Google</a>
+    <a target="_blank" href="http://www.google.com"> ir a Google</a>
     <hr />
     <img src="google.png" alt="soy google pa" />
     <hr />
-    <label for="Name">Name</label>
-    <input type="text" placeholder="name" id="Name" name="Name" />
-    <label for="Name">Password</label>
-    <input type="password" placeholder="password" id="password" name="Password" />
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+      <label for="Name">Name</label>
+      <input type="text" placeholder="name" id="Name" name="Name" />
+      <label for="Name">Password</label>
+      <input type="password" placeholder="password" id="password" name="Password" />
+    </form>
     <hr />
     <select name="select">
         <option value="option1">Opción 1</option>

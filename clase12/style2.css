@@ -6,7 +6,8 @@
 .box-new {
     background: #FFC300 ;
     width:85px;
-    height: 400px;
+    height: 250px;
+    border: #ffffff solid 1px;
   }
 
 #rotation{
