@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box-new {
+    background: #FFC300 ;
+    width:85px;
+    height: 400px;
+  }
+
+#rotation{
+  transform: scale(4.25)rotate(45deg)
+}
+
+body {
+    background-color:crimson ;
+    overflow: hidden;
+    position: relative;
+}
